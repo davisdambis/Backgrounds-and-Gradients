@@ -2,8 +2,8 @@
 This project is a clone of Apple homepage from Web Archive.  
   
 This static page contains:  
-- Navbar built with CSS linear-gradient and CSS Sprite
-- Main hero section with background image
+- Navbar built with CSS linear-gradient
+- Main section with background image
 - Promo section 
 - Footer
 
