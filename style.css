@@ -1,0 +1,212 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main_container {
+  display: block;
+  position: absolute;
+  width: 1440px;
+  height: 538px;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.main_image_container {
+  height: 538px;
+  background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 100% 100% no-repeat;
+}
+
+.main_container header {
+  display: block;
+  position: absolute;
+  margin-top: 180px;
+  line-height: 50px;
+  width: 1440px;
+  height: 335px;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+  left: 0;
+}
+
+.main_text {
+  text-align: center;
+  color: white;
+}
+
+.p1 {
+  font-size: 77px;
+  font-weight: 200;
+  font-style: normal;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+
+.p2 {
+  font-family: "Catamaran", sans-serif;
+  margin-top: 20px;
+  line-height: 40px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.p3 {
+  font-family: "Catamaran", sans-serif;
+  margin-top: 20px;
+  font-size: 26px;
+}
+
+.p3:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+nav {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 980px;
+  height: 38px;
+  margin-top: 80px;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  height: 38px;
+  width: 980px;
+}
+
+nav ul li {
+  width: 108.9px;
+  height: 36px;
+  background: rgb(144, 144, 144);
+  background: linear-gradient(0deg, rgba(144, 144, 144, 1) 2%, rgba(113, 112, 112, 1) 49%, rgba(88, 87, 87, 1) 49%, rgba(117, 114, 114, 1) 100%);
+  border: 1px solid rgb(144, 144, 144);
+  border-right: 1px solid rgb(99, 99, 99);
+  box-shadow: rgba(0, 0, 0, 0.3) 0 3px 4px;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  background: rgb(144, 144, 144);
+  background: linear-gradient(0deg, rgb(65, 60, 60) 2%, rgb(63, 56, 56) 49%, rgb(59, 54, 54) 49%, rgb(80, 73, 73) 100%);
+  border-color: rgba(88, 87, 87, 1);
+}
+
+nav ul li:first-child {
+  border-radius: 4px 0 0 4px;
+}
+
+.last_list {
+  width: 132px;
+  height: 36px;
+  background: rgb(144, 144, 144);
+  background: linear-gradient(0deg, rgba(144, 144, 144, 1) 2%, rgba(113, 112, 112, 1) 49%, rgba(88, 87, 87, 1) 49%, rgba(117, 114, 114, 1) 100%);
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  border-right: none;
+  border-radius: 0 4px 4px 0;
+}
+
+.last_list:hover {
+  background: rgb(144, 144, 144);
+  background: linear-gradient(0deg, rgba(144, 144, 144, 1) 2%, rgba(113, 112, 112, 1) 49%, rgba(88, 87, 87, 1) 49%, rgba(117, 114, 114, 1) 100%);
+  border: 1px solid rgb(144, 144, 144);
+  cursor: auto;
+}
+
+.gradient_content_icon {
+  color: rgb(219, 218, 218);
+  display: block;
+  margin-top: 9px;
+  text-align: center;
+  outline: 0;
+}
+
+.gradient_content {
+  display: block;
+  margin-top: 9px;
+  color: white;
+  text-align: center;
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  outline: 0;
+}
+
+.gradient_input {
+  width: 110px;
+  height: 20px;
+  background: linear-gradient(0deg, rgba(144, 144, 144, 1) 2%, rgba(113, 112, 112, 1) 49%, rgba(88, 87, 87, 1) 49%, rgba(117, 114, 114, 1) 100%);
+  border-radius: 10px;
+  border-color: rgb(116, 114, 114);
+  padding-left: 20px;
+}
+
+.last_list i {
+  position: absolute;
+  display: block;
+  margin-left: 15px;
+  margin-top: -17px;
+  color: white;
+}
+
+.bottom_image_container {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1440px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 423px;
+  left: 0;
+  right: 0;
+}
+
+.bottom_images {
+  width: 356px;
+}
+
+footer {
+  position: absolute;
+  display: block;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 630px;
+  right: 0;
+  left: 0;
+}
+
+footer a {
+  color: rgb(17, 143, 221);
+}
+
+.footer_text {
+  color: rgb(116, 114, 114);
+  font-size: 10px;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+.footer_left {
+  float: right;
+  margin-top: -30px;
+}
