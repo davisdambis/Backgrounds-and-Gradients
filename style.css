@@ -13,7 +13,6 @@ a {
 }
 
 .main_container {
-  display: block;
   position: absolute;
   width: 1440px;
   height: 538px;
@@ -31,7 +30,6 @@ a {
 }
 
 .main_container header {
-  display: block;
   position: absolute;
   margin-top: 180px;
   line-height: 50px;
@@ -75,7 +73,6 @@ a {
 }
 
 nav {
-  display: block;
   position: relative;
   margin: 0 auto;
   width: 980px;
