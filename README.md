@@ -16,7 +16,7 @@ It shows you a static clone of [this page](https://web.archive.org/web/201403010
 #### and deployed to Raw Githack
 
 ## Live Demo
-[Live Demo](https://rawcdn.githack.com/davisdambis/Backgrounds-and-Gradients/ee9a038ec3a3734f3b7cfa8f77f71598c9d29c9c/index.html)
+[Live Demo](https://rawcdn.githack.com/davisdambis/Backgrounds-and-Gradients/79de4cc7fdb028c6934bd363b608aaea1edfe540/index.html)
 
 ## 🤝 Contributing
 
